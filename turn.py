@@ -88,6 +88,6 @@ def open_file(song):
         return content
 
 # 處理並輸出結果
-song = "01.txt" # 檔案名稱
+song = "02.txt" # 檔案名稱
 muics = format_single_line(open_file(song))
 print(muics)
